@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tres en Raya</title>
+        <script type="text/javascript" src="../vista/vista.js"></script>
+        <script type="text/javascript" src="../modelo/modelo.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div id="caja">
+            <h1 id="mensaje"><h1>
+		      <table id="tablero">
+			     <tr>
+                     <td id="c1" onClick="partida.jugada(c1, 0); this.onclick=null;"></td>
+                     <td id="c2" onClick="partida.jugada(c2, 1); this.onclick=null;"></td>
+                     <td id="c3" onClick="partida.jugada(c3, 2); this.onclick=null;"></td>
+                  </tr>
+                  <tr>
+                      <td id="c4" onClick="partida.jugada(c4, 3); this.onclick=null;"></td>
+                      <td id="c5" onClick="partida.jugada(c5, 4);     this.onclick=null;"></td>
+                      <td id="c6" onClick="partida.jugada(c6, 5); this.onclick=null;"></td>
+                  </tr>
+                  <tr>
+                      <td id="c7" onClick="partida.jugada(c7, 6); this.onclick=null;"></td>
+                      <td id="c8" onClick="partida.jugada(c8, 7); this.onclick=null;"></td>
+                      <td id="c9" onClick="partida.jugada(c9, 8); this.onclick=null;"></td>
+                  </tr>
+            </table>
+        </div>
+        Jose Pablo Ferre Leorini    2ºDAW DWEC
+    </body>
+</html>

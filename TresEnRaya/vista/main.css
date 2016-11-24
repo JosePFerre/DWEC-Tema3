@@ -1,0 +1,36 @@
+#caja{
+    position: absolute;
+    width:100%;
+    bottom:5%;
+}
+
+#tablero{
+    border:0;
+    display: flex;
+    justify-content:center;
+    bottom:30%;
+}
+
+#tablero td{
+    height:128px;
+    width:128px;
+    border:solid;
+    font-size:40px;
+    align-content:
+}
+
+#mensaje{
+    text-align:center;
+}
+
+p{
+    text-align: left;
+    padding-left: 50px;
+    font-size:25px;
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
